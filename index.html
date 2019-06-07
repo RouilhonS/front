@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Faistoncine </title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+
+    <body>
+        <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="user_nom">
+            </div>
+            <div>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="user_prenom">
+            </div>
+            <div>
+                <label for="pseudo">Pseudo :</label>
+                <input type="text" id="pseudo" name="user_pseudo">
+            </div>
+            <div>
+                <label for="age">Age :</label>
+                <input type="int" id="age" name="user_age">
+            </div>
+            <div>
+                <label for="mail">Email :</label>
+                <input type="mail" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="pwd">Password :</label>
+                <input type="text" id="pwd" name="user_pwd">
+            </div>
+            <div>
+                <label for="sexe">Civilité :</label>
+                <input type="char" id="sexe" name="user_sexe">
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+
+
+        <!-- JavaScript -->
+        <script type="text/javascript" src="send.js"></script>
+
+    </body>
+
+</html>
