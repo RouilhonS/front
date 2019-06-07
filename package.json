@@ -17,5 +17,8 @@
     "url": "https://github.com/RouilhonS/front/issues"
   },
   "homepage": "https://github.com/RouilhonS/front#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
